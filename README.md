@@ -8,8 +8,9 @@ This project provides two AWS Lambda functions to manage EC2 instances — one f
 - Customizable region and instance IDs.
 - Error handling included for robustness.
 
-## Requirements
-- AWS Account with appropriate IAM permissions.
-- Python 3.8 or higher.
-- AWS Lambda configured for Python runtime.
-- Boto3 library (AWS SDK for Python).
+## Prerequisites
+Before deploying the Lambda functions, ensure that you have the following:
+
+- AWS Account: You must have an AWS account with appropriate IAM permissions to manage EC2 instances.
+- AWS Lambda Permissions: Your Lambda execution role must have permissions to interact with EC2 instances (`ec2:StartInstances` and `ec2:StopInstances`).
+- boto3: This script uses the `boto3` AWS SDK for Python, which is pre-installed in AWS Lambda runtime environments.
