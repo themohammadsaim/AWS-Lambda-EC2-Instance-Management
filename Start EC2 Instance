@@ -1,4 +1,0 @@
-Lambda Function to Start an EC2 Instance
-This script is a Lambda function that starts an EC2 instance. 
-It initializes an EC2 client, connects to the specified AWS region, and then starts the EC2 instance identified by its instance ID. 
-Ensure to replace the placeholders `<your-region>` and `<your-instance-id>` with the actual region and instance ID for your EC2 instance.
