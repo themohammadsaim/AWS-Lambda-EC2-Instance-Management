@@ -1,6 +1,6 @@
 # AWS Lambda EC2 Instance Management
 
-This project provides AWS Lambda scripts for managing EC2 instances, including starting and stopping them programmatically. The scripts are written in Python and make use of the `boto3` AWS SDK, enabling easy and customizable instance management. 
+This project provides two AWS Lambda functions to manage EC2 instances — one for starting an EC2 instance and another for stopping an EC2 instance. These Lambda functions are designed to be easily configured and deployed in AWS, and can be used for automation tasks such as starting or stopping instances based on certain triggers.
 
 ## Features
 - Automate EC2 instance start/stop operations.
